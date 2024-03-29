@@ -1,0 +1,24 @@
+.error {
+	background: rgba(219, 19, 59, 0.702);
+	overflow: hidden;
+	animation: show 1s linear both;
+}
+
+.message {
+	color: white;
+	text-align: center;
+	font-weight: 700;
+  padding: 1rem;
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+		max-height: 0;
+	}
+
+	to {
+		opacity: 1;
+		max-height: 20rem;
+	}
+}
